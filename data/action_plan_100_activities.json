@@ -1,0 +1,3685 @@
+[
+  {
+    "activity_id": "ACT001",
+    "priority": 1,
+    "activity_type": "Fitness routine / exercise",
+    "name": "Zone 2 Run #001",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Maintain heart rate between 120-140 bpm",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Park",
+      "Gym",
+      "Hotel Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Treadmill"
+    ],
+    "prep_required": "Wear appropriate training clothes, prepare water, and confirm recovery status.",
+    "backup_activities": [
+      "Brisk Walk",
+      "Mobility Flow",
+      "Indoor Cycling"
+    ],
+    "if_skipped_adjustment": "Reschedule within the same week if possible; otherwise reduce next session intensity by 10%.",
+    "metrics_to_collect": [
+      "heart_rate",
+      "duration",
+      "perceived_exertion"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT002",
+    "priority": 2,
+    "activity_type": "Food consumption",
+    "name": "High-Protein Breakfast #002",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "duration_minutes": 20,
+    "details": "Consume 30-40g protein within 2 hours of waking",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Hotel",
+      "Office"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare or order the meal according to the assigned nutrition guideline.",
+    "backup_activities": [
+      "Protein Shake",
+      "Mediterranean Meal Bowl",
+      "Low-Glycemic Snack"
+    ],
+    "if_skipped_adjustment": "Return to the plan at the next meal and note the reason for deviation.",
+    "metrics_to_collect": [
+      "protein_g",
+      "calories",
+      "satiety_score"
+    ],
+    "preferred_time_windows": [
+      "morning"
+    ]
+  },
+  {
+    "activity_id": "ACT003",
+    "priority": 3,
+    "activity_type": "Medication consumption",
+    "name": "Omega-3 Supplement #003",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 10,
+    "details": "Take after meal to improve tolerance",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Confirm dose, timing, and any meal requirement before taking it.",
+    "backup_activities": [
+      "Reschedule Dose Reminder",
+      "Clinician Review Required"
+    ],
+    "if_skipped_adjustment": "Follow clinician-approved missed-dose guidance and log the missed dose.",
+    "metrics_to_collect": [
+      "dose_mg",
+      "adherence"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT004",
+    "priority": 4,
+    "activity_type": "Therapy",
+    "name": "Sauna Session #004",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "15-20 minutes moderate heat exposure",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Wellness Center",
+      "Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Sauna"
+    ],
+    "prep_required": "Confirm facility availability and avoid heavy meals immediately before the session.",
+    "backup_activities": [
+      "Breathwork",
+      "Guided Meditation",
+      "Recovery Stretch"
+    ],
+    "if_skipped_adjustment": "Replace with breathwork or recovery stretch and avoid stacking intense recovery sessions next day.",
+    "metrics_to_collect": [
+      "duration",
+      "temperature",
+      "recovery_score"
+    ],
+    "preferred_time_windows": [
+      "evening",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT005",
+    "priority": 5,
+    "activity_type": "Consultation",
+    "name": "Fitness Coaching Check-in #005",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "duration_minutes": 60,
+    "details": "Review training load, soreness, and next progression",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Gym",
+      "Online"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare recent logs, wearable data, questions, and any relevant lab results.",
+    "backup_activities": [
+      "Remote Check-in",
+      "Async Form Review",
+      "Reschedule Consultation"
+    ],
+    "if_skipped_adjustment": "Use the earliest remote or in-person follow-up slot and share logs asynchronously.",
+    "metrics_to_collect": [
+      "training_load",
+      "soreness",
+      "adherence"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT006",
+    "priority": 6,
+    "activity_type": "Fitness routine / exercise",
+    "name": "Strength Training #006",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 60,
+    "details": "Full-body resistance session with controlled tempo",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Gym",
+      "Home Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Dumbbells",
+      "Resistance Bands"
+    ],
+    "prep_required": "Wear appropriate training clothes, prepare water, and confirm recovery status.",
+    "backup_activities": [
+      "Brisk Walk",
+      "Mobility Flow",
+      "Indoor Cycling"
+    ],
+    "if_skipped_adjustment": "Reschedule within the same week if possible; otherwise reduce next session intensity by 10%.",
+    "metrics_to_collect": [
+      "sets",
+      "reps",
+      "load",
+      "RPE"
+    ],
+    "preferred_time_windows": [
+      "morning"
+    ]
+  },
+  {
+    "activity_id": "ACT007",
+    "priority": 7,
+    "activity_type": "Food consumption",
+    "name": "Mediterranean Lunch #007",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 20,
+    "details": "Vegetables, lean protein, olive oil, and whole grains",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Office",
+      "Restaurant"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare or order the meal according to the assigned nutrition guideline.",
+    "backup_activities": [
+      "Protein Shake",
+      "Mediterranean Meal Bowl",
+      "Low-Glycemic Snack"
+    ],
+    "if_skipped_adjustment": "Return to the plan at the next meal and note the reason for deviation.",
+    "metrics_to_collect": [
+      "calories",
+      "fiber_g",
+      "protein_g"
+    ],
+    "preferred_time_windows": [
+      "midday"
+    ]
+  },
+  {
+    "activity_id": "ACT008",
+    "priority": 8,
+    "activity_type": "Medication consumption",
+    "name": "Vitamin D3 #008",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 10,
+    "details": "Take with fat-containing meal",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Confirm dose, timing, and any meal requirement before taking it.",
+    "backup_activities": [
+      "Reschedule Dose Reminder",
+      "Clinician Review Required"
+    ],
+    "if_skipped_adjustment": "Follow clinician-approved missed-dose guidance and log the missed dose.",
+    "metrics_to_collect": [
+      "dose_IU",
+      "adherence"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT009",
+    "priority": 9,
+    "activity_type": "Therapy",
+    "name": "Cold Plunge #009",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "2-3 minutes controlled cold exposure",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Wellness Center",
+      "Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Cold Plunge"
+    ],
+    "prep_required": "Confirm facility availability and avoid heavy meals immediately before the session.",
+    "backup_activities": [
+      "Breathwork",
+      "Guided Meditation",
+      "Recovery Stretch"
+    ],
+    "if_skipped_adjustment": "Replace with breathwork or recovery stretch and avoid stacking intense recovery sessions next day.",
+    "metrics_to_collect": [
+      "duration",
+      "temperature",
+      "stress_score"
+    ],
+    "preferred_time_windows": [
+      "evening",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT010",
+    "priority": 10,
+    "activity_type": "Consultation",
+    "name": "Dietitian Consultation #010",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "duration_minutes": 30,
+    "details": "Review food log and adjust macro targets",
+    "facilitator_type": "allied_health",
+    "facilitator_role": "Dietitian",
+    "location_options": [
+      "Clinic",
+      "Online"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare recent logs, wearable data, questions, and any relevant lab results.",
+    "backup_activities": [
+      "Remote Check-in",
+      "Async Form Review",
+      "Reschedule Consultation"
+    ],
+    "if_skipped_adjustment": "Use the earliest remote or in-person follow-up slot and share logs asynchronously.",
+    "metrics_to_collect": [
+      "protein_g",
+      "fiber_g",
+      "weight_trend"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT011",
+    "priority": 11,
+    "activity_type": "Fitness routine / exercise",
+    "name": "Mobility Flow #011",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "duration_minutes": 15,
+    "details": "Hip, ankle, thoracic spine, and shoulder mobility",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Home",
+      "Hotel Room",
+      "Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Yoga Mat"
+    ],
+    "prep_required": "Wear appropriate training clothes, prepare water, and confirm recovery status.",
+    "backup_activities": [
+      "Brisk Walk",
+      "Mobility Flow",
+      "Indoor Cycling"
+    ],
+    "if_skipped_adjustment": "Reschedule within the same week if possible; otherwise reduce next session intensity by 10%.",
+    "metrics_to_collect": [
+      "duration",
+      "pain_score",
+      "range_of_motion"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT012",
+    "priority": 12,
+    "activity_type": "Food consumption",
+    "name": "Hydration Protocol #012",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "duration_minutes": 20,
+    "details": "Drink 500ml water with electrolytes",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare or order the meal according to the assigned nutrition guideline.",
+    "backup_activities": [
+      "Protein Shake",
+      "Mediterranean Meal Bowl",
+      "Low-Glycemic Snack"
+    ],
+    "if_skipped_adjustment": "Return to the plan at the next meal and note the reason for deviation.",
+    "metrics_to_collect": [
+      "water_ml",
+      "electrolyte_serving"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT013",
+    "priority": 13,
+    "activity_type": "Medication consumption",
+    "name": "Magnesium Glycinate #013",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 15,
+    "details": "Take 60 minutes before bedtime",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Confirm dose, timing, and any meal requirement before taking it.",
+    "backup_activities": [
+      "Reschedule Dose Reminder",
+      "Clinician Review Required"
+    ],
+    "if_skipped_adjustment": "Follow clinician-approved missed-dose guidance and log the missed dose.",
+    "metrics_to_collect": [
+      "dose_mg",
+      "sleep_quality",
+      "adherence"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT014",
+    "priority": 14,
+    "activity_type": "Therapy",
+    "name": "Breathwork #014",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 30,
+    "details": "Box breathing or physiological sigh protocol",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Health Coach",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Confirm facility availability and avoid heavy meals immediately before the session.",
+    "backup_activities": [
+      "Breathwork",
+      "Guided Meditation",
+      "Recovery Stretch"
+    ],
+    "if_skipped_adjustment": "Replace with breathwork or recovery stretch and avoid stacking intense recovery sessions next day.",
+    "metrics_to_collect": [
+      "duration",
+      "stress_score",
+      "HRV"
+    ],
+    "preferred_time_windows": [
+      "evening",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT015",
+    "priority": 15,
+    "activity_type": "Consultation",
+    "name": "Physiotherapy Review #015",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "duration_minutes": 30,
+    "details": "Assess mobility limitation and exercise form",
+    "facilitator_type": "allied_health",
+    "facilitator_role": "Physiotherapist",
+    "location_options": [
+      "Clinic",
+      "Online"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [
+      "Yoga Mat"
+    ],
+    "prep_required": "Prepare recent logs, wearable data, questions, and any relevant lab results.",
+    "backup_activities": [
+      "Remote Check-in",
+      "Async Form Review",
+      "Reschedule Consultation"
+    ],
+    "if_skipped_adjustment": "Use the earliest remote or in-person follow-up slot and share logs asynchronously.",
+    "metrics_to_collect": [
+      "pain_score",
+      "range_of_motion",
+      "exercise_tolerance"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT016",
+    "priority": 16,
+    "activity_type": "Fitness routine / exercise",
+    "name": "Eye Exercise #016",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 30,
+    "details": "Near-far focus drill and 20-20-20 visual breaks",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel Room"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Wear appropriate training clothes, prepare water, and confirm recovery status.",
+    "backup_activities": [
+      "Brisk Walk",
+      "Mobility Flow",
+      "Indoor Cycling"
+    ],
+    "if_skipped_adjustment": "Reschedule within the same week if possible; otherwise reduce next session intensity by 10%.",
+    "metrics_to_collect": [
+      "duration",
+      "eye_strain_score"
+    ],
+    "preferred_time_windows": [
+      "morning"
+    ]
+  },
+  {
+    "activity_id": "ACT017",
+    "priority": 17,
+    "activity_type": "Food consumption",
+    "name": "Low-Glycemic Dinner #017",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 30,
+    "details": "Control evening carbohydrate load",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Restaurant",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare or order the meal according to the assigned nutrition guideline.",
+    "backup_activities": [
+      "Protein Shake",
+      "Mediterranean Meal Bowl",
+      "Low-Glycemic Snack"
+    ],
+    "if_skipped_adjustment": "Return to the plan at the next meal and note the reason for deviation.",
+    "metrics_to_collect": [
+      "carbs_g",
+      "glucose_response",
+      "sleep_quality"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT018",
+    "priority": 18,
+    "activity_type": "Medication consumption",
+    "name": "Glucose Monitor Check #018",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 15,
+    "details": "Record fasting glucose and notes",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [
+      "Glucose Meter"
+    ],
+    "prep_required": "Confirm dose, timing, and any meal requirement before taking it.",
+    "backup_activities": [
+      "Reschedule Dose Reminder",
+      "Clinician Review Required"
+    ],
+    "if_skipped_adjustment": "Follow clinician-approved missed-dose guidance and log the missed dose.",
+    "metrics_to_collect": [
+      "glucose_mg_dL",
+      "fasting_hours"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT019",
+    "priority": 19,
+    "activity_type": "Therapy",
+    "name": "Guided Meditation #019",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Mindfulness session with body scan",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Health Coach",
+    "location_options": [
+      "Home",
+      "Hotel",
+      "Office"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Confirm facility availability and avoid heavy meals immediately before the session.",
+    "backup_activities": [
+      "Breathwork",
+      "Guided Meditation",
+      "Recovery Stretch"
+    ],
+    "if_skipped_adjustment": "Replace with breathwork or recovery stretch and avoid stacking intense recovery sessions next day.",
+    "metrics_to_collect": [
+      "duration",
+      "mood_score",
+      "sleep_quality"
+    ],
+    "preferred_time_windows": [
+      "evening",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT020",
+    "priority": 20,
+    "activity_type": "Consultation",
+    "name": "Physician Follow-up #020",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "duration_minutes": 45,
+    "details": "Review biomarkers and medication tolerance",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Physician",
+    "location_options": [
+      "Clinic",
+      "Online"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare recent logs, wearable data, questions, and any relevant lab results.",
+    "backup_activities": [
+      "Remote Check-in",
+      "Async Form Review",
+      "Reschedule Consultation"
+    ],
+    "if_skipped_adjustment": "Use the earliest remote or in-person follow-up slot and share logs asynchronously.",
+    "metrics_to_collect": [
+      "blood_markers",
+      "symptoms",
+      "adherence"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT021",
+    "priority": 21,
+    "activity_type": "Fitness routine / exercise",
+    "name": "Brisk Walk #021",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Low-intensity walk after meals",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Park",
+      "Home",
+      "Hotel"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [],
+    "prep_required": "Wear appropriate training clothes, prepare water, and confirm recovery status.",
+    "backup_activities": [
+      "Brisk Walk",
+      "Mobility Flow",
+      "Indoor Cycling"
+    ],
+    "if_skipped_adjustment": "Reschedule within the same week if possible; otherwise reduce next session intensity by 10%.",
+    "metrics_to_collect": [
+      "steps",
+      "duration",
+      "glucose_response"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT022",
+    "priority": 22,
+    "activity_type": "Food consumption",
+    "name": "Fermented Food Serving #022",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 30,
+    "details": "Add yogurt, kimchi, kefir, or sauerkraut",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare or order the meal according to the assigned nutrition guideline.",
+    "backup_activities": [
+      "Protein Shake",
+      "Mediterranean Meal Bowl",
+      "Low-Glycemic Snack"
+    ],
+    "if_skipped_adjustment": "Return to the plan at the next meal and note the reason for deviation.",
+    "metrics_to_collect": [
+      "serving_size",
+      "GI_comfort_score"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT023",
+    "priority": 23,
+    "activity_type": "Medication consumption",
+    "name": "Blood Pressure Reading #023",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 15,
+    "details": "Measure seated blood pressure after 5 minutes rest",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Hotel",
+      "Clinic"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [
+      "Blood Pressure Cuff"
+    ],
+    "prep_required": "Confirm dose, timing, and any meal requirement before taking it.",
+    "backup_activities": [
+      "Reschedule Dose Reminder",
+      "Clinician Review Required"
+    ],
+    "if_skipped_adjustment": "Follow clinician-approved missed-dose guidance and log the missed dose.",
+    "metrics_to_collect": [
+      "systolic",
+      "diastolic",
+      "resting_hr"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT024",
+    "priority": 24,
+    "activity_type": "Therapy",
+    "name": "Recovery Stretch #024",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Parasympathetic evening stretch routine",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Health Coach",
+    "location_options": [
+      "Home",
+      "Hotel",
+      "Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Yoga Mat"
+    ],
+    "prep_required": "Confirm facility availability and avoid heavy meals immediately before the session.",
+    "backup_activities": [
+      "Breathwork",
+      "Guided Meditation",
+      "Recovery Stretch"
+    ],
+    "if_skipped_adjustment": "Replace with breathwork or recovery stretch and avoid stacking intense recovery sessions next day.",
+    "metrics_to_collect": [
+      "duration",
+      "muscle_tightness_score"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT025",
+    "priority": 25,
+    "activity_type": "Consultation",
+    "name": "Sleep Coaching Session #025",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "duration_minutes": 30,
+    "details": "Review sleep timing, routine, and wearable trends",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Sleep Specialist",
+    "location_options": [
+      "Online",
+      "Clinic"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare recent logs, wearable data, questions, and any relevant lab results.",
+    "backup_activities": [
+      "Remote Check-in",
+      "Async Form Review",
+      "Reschedule Consultation"
+    ],
+    "if_skipped_adjustment": "Use the earliest remote or in-person follow-up slot and share logs asynchronously.",
+    "metrics_to_collect": [
+      "sleep_duration",
+      "sleep_efficiency",
+      "HRV"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT026",
+    "priority": 26,
+    "activity_type": "Fitness routine / exercise",
+    "name": "Zone 2 Run #026",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Maintain heart rate between 120-140 bpm",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Park",
+      "Gym",
+      "Hotel Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Treadmill"
+    ],
+    "prep_required": "Wear appropriate training clothes, prepare water, and confirm recovery status.",
+    "backup_activities": [
+      "Brisk Walk",
+      "Mobility Flow",
+      "Indoor Cycling"
+    ],
+    "if_skipped_adjustment": "Reschedule within the same week if possible; otherwise reduce next session intensity by 10%.",
+    "metrics_to_collect": [
+      "heart_rate",
+      "duration",
+      "perceived_exertion"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT027",
+    "priority": 27,
+    "activity_type": "Food consumption",
+    "name": "High-Protein Breakfast #027",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 30,
+    "details": "Consume 30-40g protein within 2 hours of waking",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Hotel",
+      "Office"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare or order the meal according to the assigned nutrition guideline.",
+    "backup_activities": [
+      "Protein Shake",
+      "Mediterranean Meal Bowl",
+      "Low-Glycemic Snack"
+    ],
+    "if_skipped_adjustment": "Return to the plan at the next meal and note the reason for deviation.",
+    "metrics_to_collect": [
+      "protein_g",
+      "calories",
+      "satiety_score"
+    ],
+    "preferred_time_windows": [
+      "morning"
+    ]
+  },
+  {
+    "activity_id": "ACT028",
+    "priority": 28,
+    "activity_type": "Medication consumption",
+    "name": "Omega-3 Supplement #028",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 10,
+    "details": "Take after meal to improve tolerance",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Confirm dose, timing, and any meal requirement before taking it.",
+    "backup_activities": [
+      "Reschedule Dose Reminder",
+      "Clinician Review Required"
+    ],
+    "if_skipped_adjustment": "Follow clinician-approved missed-dose guidance and log the missed dose.",
+    "metrics_to_collect": [
+      "dose_mg",
+      "adherence"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT029",
+    "priority": 29,
+    "activity_type": "Therapy",
+    "name": "Sauna Session #029",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 30,
+    "details": "15-20 minutes moderate heat exposure",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Wellness Center",
+      "Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Sauna"
+    ],
+    "prep_required": "Confirm facility availability and avoid heavy meals immediately before the session.",
+    "backup_activities": [
+      "Breathwork",
+      "Guided Meditation",
+      "Recovery Stretch"
+    ],
+    "if_skipped_adjustment": "Replace with breathwork or recovery stretch and avoid stacking intense recovery sessions next day.",
+    "metrics_to_collect": [
+      "duration",
+      "temperature",
+      "recovery_score"
+    ],
+    "preferred_time_windows": [
+      "evening",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT030",
+    "priority": 30,
+    "activity_type": "Consultation",
+    "name": "Fitness Coaching Check-in #030",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "duration_minutes": 45,
+    "details": "Review training load, soreness, and next progression",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Gym",
+      "Online"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare recent logs, wearable data, questions, and any relevant lab results.",
+    "backup_activities": [
+      "Remote Check-in",
+      "Async Form Review",
+      "Reschedule Consultation"
+    ],
+    "if_skipped_adjustment": "Use the earliest remote or in-person follow-up slot and share logs asynchronously.",
+    "metrics_to_collect": [
+      "training_load",
+      "soreness",
+      "adherence"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT031",
+    "priority": 31,
+    "activity_type": "Fitness routine / exercise",
+    "name": "Strength Training #031",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "duration_minutes": 60,
+    "details": "Full-body resistance session with controlled tempo",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Gym",
+      "Home Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Dumbbells",
+      "Resistance Bands"
+    ],
+    "prep_required": "Wear appropriate training clothes, prepare water, and confirm recovery status.",
+    "backup_activities": [
+      "Brisk Walk",
+      "Mobility Flow",
+      "Indoor Cycling"
+    ],
+    "if_skipped_adjustment": "Reschedule within the same week if possible; otherwise reduce next session intensity by 10%.",
+    "metrics_to_collect": [
+      "sets",
+      "reps",
+      "load",
+      "RPE"
+    ],
+    "preferred_time_windows": [
+      "morning"
+    ]
+  },
+  {
+    "activity_id": "ACT032",
+    "priority": 32,
+    "activity_type": "Food consumption",
+    "name": "Mediterranean Lunch #032",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "duration_minutes": 30,
+    "details": "Vegetables, lean protein, olive oil, and whole grains",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Office",
+      "Restaurant"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare or order the meal according to the assigned nutrition guideline.",
+    "backup_activities": [
+      "Protein Shake",
+      "Mediterranean Meal Bowl",
+      "Low-Glycemic Snack"
+    ],
+    "if_skipped_adjustment": "Return to the plan at the next meal and note the reason for deviation.",
+    "metrics_to_collect": [
+      "calories",
+      "fiber_g",
+      "protein_g"
+    ],
+    "preferred_time_windows": [
+      "midday"
+    ]
+  },
+  {
+    "activity_id": "ACT033",
+    "priority": 33,
+    "activity_type": "Medication consumption",
+    "name": "Vitamin D3 #033",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 15,
+    "details": "Take with fat-containing meal",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Confirm dose, timing, and any meal requirement before taking it.",
+    "backup_activities": [
+      "Reschedule Dose Reminder",
+      "Clinician Review Required"
+    ],
+    "if_skipped_adjustment": "Follow clinician-approved missed-dose guidance and log the missed dose.",
+    "metrics_to_collect": [
+      "dose_IU",
+      "adherence"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT034",
+    "priority": 34,
+    "activity_type": "Therapy",
+    "name": "Cold Plunge #034",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "2-3 minutes controlled cold exposure",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Wellness Center",
+      "Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Cold Plunge"
+    ],
+    "prep_required": "Confirm facility availability and avoid heavy meals immediately before the session.",
+    "backup_activities": [
+      "Breathwork",
+      "Guided Meditation",
+      "Recovery Stretch"
+    ],
+    "if_skipped_adjustment": "Replace with breathwork or recovery stretch and avoid stacking intense recovery sessions next day.",
+    "metrics_to_collect": [
+      "duration",
+      "temperature",
+      "stress_score"
+    ],
+    "preferred_time_windows": [
+      "evening",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT035",
+    "priority": 35,
+    "activity_type": "Consultation",
+    "name": "Dietitian Consultation #035",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "duration_minutes": 60,
+    "details": "Review food log and adjust macro targets",
+    "facilitator_type": "allied_health",
+    "facilitator_role": "Dietitian",
+    "location_options": [
+      "Clinic",
+      "Online"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare recent logs, wearable data, questions, and any relevant lab results.",
+    "backup_activities": [
+      "Remote Check-in",
+      "Async Form Review",
+      "Reschedule Consultation"
+    ],
+    "if_skipped_adjustment": "Use the earliest remote or in-person follow-up slot and share logs asynchronously.",
+    "metrics_to_collect": [
+      "protein_g",
+      "fiber_g",
+      "weight_trend"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT036",
+    "priority": 36,
+    "activity_type": "Fitness routine / exercise",
+    "name": "Mobility Flow #036",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Hip, ankle, thoracic spine, and shoulder mobility",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Home",
+      "Hotel Room",
+      "Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Yoga Mat"
+    ],
+    "prep_required": "Wear appropriate training clothes, prepare water, and confirm recovery status.",
+    "backup_activities": [
+      "Brisk Walk",
+      "Mobility Flow",
+      "Indoor Cycling"
+    ],
+    "if_skipped_adjustment": "Reschedule within the same week if possible; otherwise reduce next session intensity by 10%.",
+    "metrics_to_collect": [
+      "duration",
+      "pain_score",
+      "range_of_motion"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT037",
+    "priority": 37,
+    "activity_type": "Food consumption",
+    "name": "Hydration Protocol #037",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 20,
+    "details": "Drink 500ml water with electrolytes",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare or order the meal according to the assigned nutrition guideline.",
+    "backup_activities": [
+      "Protein Shake",
+      "Mediterranean Meal Bowl",
+      "Low-Glycemic Snack"
+    ],
+    "if_skipped_adjustment": "Return to the plan at the next meal and note the reason for deviation.",
+    "metrics_to_collect": [
+      "water_ml",
+      "electrolyte_serving"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT038",
+    "priority": 38,
+    "activity_type": "Medication consumption",
+    "name": "Magnesium Glycinate #038",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 15,
+    "details": "Take 60 minutes before bedtime",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Confirm dose, timing, and any meal requirement before taking it.",
+    "backup_activities": [
+      "Reschedule Dose Reminder",
+      "Clinician Review Required"
+    ],
+    "if_skipped_adjustment": "Follow clinician-approved missed-dose guidance and log the missed dose.",
+    "metrics_to_collect": [
+      "dose_mg",
+      "sleep_quality",
+      "adherence"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT039",
+    "priority": 39,
+    "activity_type": "Therapy",
+    "name": "Breathwork #039",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Box breathing or physiological sigh protocol",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Health Coach",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Confirm facility availability and avoid heavy meals immediately before the session.",
+    "backup_activities": [
+      "Breathwork",
+      "Guided Meditation",
+      "Recovery Stretch"
+    ],
+    "if_skipped_adjustment": "Replace with breathwork or recovery stretch and avoid stacking intense recovery sessions next day.",
+    "metrics_to_collect": [
+      "duration",
+      "stress_score",
+      "HRV"
+    ],
+    "preferred_time_windows": [
+      "evening",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT040",
+    "priority": 40,
+    "activity_type": "Consultation",
+    "name": "Physiotherapy Review #040",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "duration_minutes": 60,
+    "details": "Assess mobility limitation and exercise form",
+    "facilitator_type": "allied_health",
+    "facilitator_role": "Physiotherapist",
+    "location_options": [
+      "Clinic",
+      "Online"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [
+      "Yoga Mat"
+    ],
+    "prep_required": "Prepare recent logs, wearable data, questions, and any relevant lab results.",
+    "backup_activities": [
+      "Remote Check-in",
+      "Async Form Review",
+      "Reschedule Consultation"
+    ],
+    "if_skipped_adjustment": "Use the earliest remote or in-person follow-up slot and share logs asynchronously.",
+    "metrics_to_collect": [
+      "pain_score",
+      "range_of_motion",
+      "exercise_tolerance"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT041",
+    "priority": 41,
+    "activity_type": "Fitness routine / exercise",
+    "name": "Eye Exercise #041",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Near-far focus drill and 20-20-20 visual breaks",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel Room"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Wear appropriate training clothes, prepare water, and confirm recovery status.",
+    "backup_activities": [
+      "Brisk Walk",
+      "Mobility Flow",
+      "Indoor Cycling"
+    ],
+    "if_skipped_adjustment": "Reschedule within the same week if possible; otherwise reduce next session intensity by 10%.",
+    "metrics_to_collect": [
+      "duration",
+      "eye_strain_score"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT042",
+    "priority": 42,
+    "activity_type": "Food consumption",
+    "name": "Low-Glycemic Dinner #042",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 20,
+    "details": "Control evening carbohydrate load",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Restaurant",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare or order the meal according to the assigned nutrition guideline.",
+    "backup_activities": [
+      "Protein Shake",
+      "Mediterranean Meal Bowl",
+      "Low-Glycemic Snack"
+    ],
+    "if_skipped_adjustment": "Return to the plan at the next meal and note the reason for deviation.",
+    "metrics_to_collect": [
+      "carbs_g",
+      "glucose_response",
+      "sleep_quality"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT043",
+    "priority": 43,
+    "activity_type": "Medication consumption",
+    "name": "Glucose Monitor Check #043",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 15,
+    "details": "Record fasting glucose and notes",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [
+      "Glucose Meter"
+    ],
+    "prep_required": "Confirm dose, timing, and any meal requirement before taking it.",
+    "backup_activities": [
+      "Reschedule Dose Reminder",
+      "Clinician Review Required"
+    ],
+    "if_skipped_adjustment": "Follow clinician-approved missed-dose guidance and log the missed dose.",
+    "metrics_to_collect": [
+      "glucose_mg_dL",
+      "fasting_hours"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT044",
+    "priority": 44,
+    "activity_type": "Therapy",
+    "name": "Guided Meditation #044",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 30,
+    "details": "Mindfulness session with body scan",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Health Coach",
+    "location_options": [
+      "Home",
+      "Hotel",
+      "Office"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Confirm facility availability and avoid heavy meals immediately before the session.",
+    "backup_activities": [
+      "Breathwork",
+      "Guided Meditation",
+      "Recovery Stretch"
+    ],
+    "if_skipped_adjustment": "Replace with breathwork or recovery stretch and avoid stacking intense recovery sessions next day.",
+    "metrics_to_collect": [
+      "duration",
+      "mood_score",
+      "sleep_quality"
+    ],
+    "preferred_time_windows": [
+      "evening",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT045",
+    "priority": 45,
+    "activity_type": "Consultation",
+    "name": "Physician Follow-up #045",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "duration_minutes": 30,
+    "details": "Review biomarkers and medication tolerance",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Physician",
+    "location_options": [
+      "Clinic",
+      "Online"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare recent logs, wearable data, questions, and any relevant lab results.",
+    "backup_activities": [
+      "Remote Check-in",
+      "Async Form Review",
+      "Reschedule Consultation"
+    ],
+    "if_skipped_adjustment": "Use the earliest remote or in-person follow-up slot and share logs asynchronously.",
+    "metrics_to_collect": [
+      "blood_markers",
+      "symptoms",
+      "adherence"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT046",
+    "priority": 46,
+    "activity_type": "Fitness routine / exercise",
+    "name": "Brisk Walk #046",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Low-intensity walk after meals",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Park",
+      "Home",
+      "Hotel"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [],
+    "prep_required": "Wear appropriate training clothes, prepare water, and confirm recovery status.",
+    "backup_activities": [
+      "Brisk Walk",
+      "Mobility Flow",
+      "Indoor Cycling"
+    ],
+    "if_skipped_adjustment": "Reschedule within the same week if possible; otherwise reduce next session intensity by 10%.",
+    "metrics_to_collect": [
+      "steps",
+      "duration",
+      "glucose_response"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT047",
+    "priority": 47,
+    "activity_type": "Food consumption",
+    "name": "Fermented Food Serving #047",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "duration_minutes": 20,
+    "details": "Add yogurt, kimchi, kefir, or sauerkraut",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare or order the meal according to the assigned nutrition guideline.",
+    "backup_activities": [
+      "Protein Shake",
+      "Mediterranean Meal Bowl",
+      "Low-Glycemic Snack"
+    ],
+    "if_skipped_adjustment": "Return to the plan at the next meal and note the reason for deviation.",
+    "metrics_to_collect": [
+      "serving_size",
+      "GI_comfort_score"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT048",
+    "priority": 48,
+    "activity_type": "Medication consumption",
+    "name": "Blood Pressure Reading #048",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "duration_minutes": 15,
+    "details": "Measure seated blood pressure after 5 minutes rest",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Hotel",
+      "Clinic"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [
+      "Blood Pressure Cuff"
+    ],
+    "prep_required": "Confirm dose, timing, and any meal requirement before taking it.",
+    "backup_activities": [
+      "Reschedule Dose Reminder",
+      "Clinician Review Required"
+    ],
+    "if_skipped_adjustment": "Follow clinician-approved missed-dose guidance and log the missed dose.",
+    "metrics_to_collect": [
+      "systolic",
+      "diastolic",
+      "resting_hr"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT049",
+    "priority": 49,
+    "activity_type": "Therapy",
+    "name": "Recovery Stretch #049",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Parasympathetic evening stretch routine",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Health Coach",
+    "location_options": [
+      "Home",
+      "Hotel",
+      "Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Yoga Mat"
+    ],
+    "prep_required": "Confirm facility availability and avoid heavy meals immediately before the session.",
+    "backup_activities": [
+      "Breathwork",
+      "Guided Meditation",
+      "Recovery Stretch"
+    ],
+    "if_skipped_adjustment": "Replace with breathwork or recovery stretch and avoid stacking intense recovery sessions next day.",
+    "metrics_to_collect": [
+      "duration",
+      "muscle_tightness_score"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT050",
+    "priority": 50,
+    "activity_type": "Consultation",
+    "name": "Sleep Coaching Session #050",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "duration_minutes": 45,
+    "details": "Review sleep timing, routine, and wearable trends",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Sleep Specialist",
+    "location_options": [
+      "Online",
+      "Clinic"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare recent logs, wearable data, questions, and any relevant lab results.",
+    "backup_activities": [
+      "Remote Check-in",
+      "Async Form Review",
+      "Reschedule Consultation"
+    ],
+    "if_skipped_adjustment": "Use the earliest remote or in-person follow-up slot and share logs asynchronously.",
+    "metrics_to_collect": [
+      "sleep_duration",
+      "sleep_efficiency",
+      "HRV"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT051",
+    "priority": 51,
+    "activity_type": "Fitness routine / exercise",
+    "name": "Zone 2 Run #051",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 60,
+    "details": "Maintain heart rate between 120-140 bpm",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Park",
+      "Gym",
+      "Hotel Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Treadmill"
+    ],
+    "prep_required": "Wear appropriate training clothes, prepare water, and confirm recovery status.",
+    "backup_activities": [
+      "Brisk Walk",
+      "Mobility Flow",
+      "Indoor Cycling"
+    ],
+    "if_skipped_adjustment": "Reschedule within the same week if possible; otherwise reduce next session intensity by 10%.",
+    "metrics_to_collect": [
+      "heart_rate",
+      "duration",
+      "perceived_exertion"
+    ],
+    "preferred_time_windows": [
+      "morning"
+    ]
+  },
+  {
+    "activity_id": "ACT052",
+    "priority": 52,
+    "activity_type": "Food consumption",
+    "name": "High-Protein Breakfast #052",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Consume 30-40g protein within 2 hours of waking",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Hotel",
+      "Office"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare or order the meal according to the assigned nutrition guideline.",
+    "backup_activities": [
+      "Protein Shake",
+      "Mediterranean Meal Bowl",
+      "Low-Glycemic Snack"
+    ],
+    "if_skipped_adjustment": "Return to the plan at the next meal and note the reason for deviation.",
+    "metrics_to_collect": [
+      "protein_g",
+      "calories",
+      "satiety_score"
+    ],
+    "preferred_time_windows": [
+      "morning"
+    ]
+  },
+  {
+    "activity_id": "ACT053",
+    "priority": 53,
+    "activity_type": "Medication consumption",
+    "name": "Omega-3 Supplement #053",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "duration_minutes": 15,
+    "details": "Take after meal to improve tolerance",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Confirm dose, timing, and any meal requirement before taking it.",
+    "backup_activities": [
+      "Reschedule Dose Reminder",
+      "Clinician Review Required"
+    ],
+    "if_skipped_adjustment": "Follow clinician-approved missed-dose guidance and log the missed dose.",
+    "metrics_to_collect": [
+      "dose_mg",
+      "adherence"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT054",
+    "priority": 54,
+    "activity_type": "Therapy",
+    "name": "Sauna Session #054",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "15-20 minutes moderate heat exposure",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Health Coach",
+    "location_options": [
+      "Wellness Center",
+      "Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Sauna"
+    ],
+    "prep_required": "Confirm facility availability and avoid heavy meals immediately before the session.",
+    "backup_activities": [
+      "Breathwork",
+      "Guided Meditation",
+      "Recovery Stretch"
+    ],
+    "if_skipped_adjustment": "Replace with breathwork or recovery stretch and avoid stacking intense recovery sessions next day.",
+    "metrics_to_collect": [
+      "duration",
+      "temperature",
+      "recovery_score"
+    ],
+    "preferred_time_windows": [
+      "evening",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT055",
+    "priority": 55,
+    "activity_type": "Consultation",
+    "name": "Fitness Coaching Check-in #055",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "duration_minutes": 45,
+    "details": "Review training load, soreness, and next progression",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Gym",
+      "Online"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare recent logs, wearable data, questions, and any relevant lab results.",
+    "backup_activities": [
+      "Remote Check-in",
+      "Async Form Review",
+      "Reschedule Consultation"
+    ],
+    "if_skipped_adjustment": "Use the earliest remote or in-person follow-up slot and share logs asynchronously.",
+    "metrics_to_collect": [
+      "training_load",
+      "soreness",
+      "adherence"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT056",
+    "priority": 56,
+    "activity_type": "Fitness routine / exercise",
+    "name": "Strength Training #056",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Full-body resistance session with controlled tempo",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Gym",
+      "Home Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Dumbbells",
+      "Resistance Bands"
+    ],
+    "prep_required": "Wear appropriate training clothes, prepare water, and confirm recovery status.",
+    "backup_activities": [
+      "Brisk Walk",
+      "Mobility Flow",
+      "Indoor Cycling"
+    ],
+    "if_skipped_adjustment": "Reschedule within the same week if possible; otherwise reduce next session intensity by 10%.",
+    "metrics_to_collect": [
+      "sets",
+      "reps",
+      "load",
+      "RPE"
+    ],
+    "preferred_time_windows": [
+      "morning"
+    ]
+  },
+  {
+    "activity_id": "ACT057",
+    "priority": 57,
+    "activity_type": "Food consumption",
+    "name": "Mediterranean Lunch #057",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "duration_minutes": 20,
+    "details": "Vegetables, lean protein, olive oil, and whole grains",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Office",
+      "Restaurant"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare or order the meal according to the assigned nutrition guideline.",
+    "backup_activities": [
+      "Protein Shake",
+      "Mediterranean Meal Bowl",
+      "Low-Glycemic Snack"
+    ],
+    "if_skipped_adjustment": "Return to the plan at the next meal and note the reason for deviation.",
+    "metrics_to_collect": [
+      "calories",
+      "fiber_g",
+      "protein_g"
+    ],
+    "preferred_time_windows": [
+      "midday"
+    ]
+  },
+  {
+    "activity_id": "ACT058",
+    "priority": 58,
+    "activity_type": "Medication consumption",
+    "name": "Vitamin D3 #058",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 10,
+    "details": "Take with fat-containing meal",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Confirm dose, timing, and any meal requirement before taking it.",
+    "backup_activities": [
+      "Reschedule Dose Reminder",
+      "Clinician Review Required"
+    ],
+    "if_skipped_adjustment": "Follow clinician-approved missed-dose guidance and log the missed dose.",
+    "metrics_to_collect": [
+      "dose_IU",
+      "adherence"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT059",
+    "priority": 59,
+    "activity_type": "Therapy",
+    "name": "Cold Plunge #059",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "2-3 minutes controlled cold exposure",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Wellness Center",
+      "Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Cold Plunge"
+    ],
+    "prep_required": "Confirm facility availability and avoid heavy meals immediately before the session.",
+    "backup_activities": [
+      "Breathwork",
+      "Guided Meditation",
+      "Recovery Stretch"
+    ],
+    "if_skipped_adjustment": "Replace with breathwork or recovery stretch and avoid stacking intense recovery sessions next day.",
+    "metrics_to_collect": [
+      "duration",
+      "temperature",
+      "stress_score"
+    ],
+    "preferred_time_windows": [
+      "evening",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT060",
+    "priority": 60,
+    "activity_type": "Consultation",
+    "name": "Dietitian Consultation #060",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "duration_minutes": 30,
+    "details": "Review food log and adjust macro targets",
+    "facilitator_type": "allied_health",
+    "facilitator_role": "Dietitian",
+    "location_options": [
+      "Clinic",
+      "Online"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare recent logs, wearable data, questions, and any relevant lab results.",
+    "backup_activities": [
+      "Remote Check-in",
+      "Async Form Review",
+      "Reschedule Consultation"
+    ],
+    "if_skipped_adjustment": "Use the earliest remote or in-person follow-up slot and share logs asynchronously.",
+    "metrics_to_collect": [
+      "protein_g",
+      "fiber_g",
+      "weight_trend"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT061",
+    "priority": 61,
+    "activity_type": "Fitness routine / exercise",
+    "name": "Mobility Flow #061",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Hip, ankle, thoracic spine, and shoulder mobility",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Home",
+      "Hotel Room",
+      "Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Yoga Mat"
+    ],
+    "prep_required": "Wear appropriate training clothes, prepare water, and confirm recovery status.",
+    "backup_activities": [
+      "Brisk Walk",
+      "Mobility Flow",
+      "Indoor Cycling"
+    ],
+    "if_skipped_adjustment": "Reschedule within the same week if possible; otherwise reduce next session intensity by 10%.",
+    "metrics_to_collect": [
+      "duration",
+      "pain_score",
+      "range_of_motion"
+    ],
+    "preferred_time_windows": [
+      "morning"
+    ]
+  },
+  {
+    "activity_id": "ACT062",
+    "priority": 62,
+    "activity_type": "Food consumption",
+    "name": "Hydration Protocol #062",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "duration_minutes": 30,
+    "details": "Drink 500ml water with electrolytes",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare or order the meal according to the assigned nutrition guideline.",
+    "backup_activities": [
+      "Protein Shake",
+      "Mediterranean Meal Bowl",
+      "Low-Glycemic Snack"
+    ],
+    "if_skipped_adjustment": "Return to the plan at the next meal and note the reason for deviation.",
+    "metrics_to_collect": [
+      "water_ml",
+      "electrolyte_serving"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT063",
+    "priority": 63,
+    "activity_type": "Medication consumption",
+    "name": "Magnesium Glycinate #063",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "duration_minutes": 15,
+    "details": "Take 60 minutes before bedtime",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Confirm dose, timing, and any meal requirement before taking it.",
+    "backup_activities": [
+      "Reschedule Dose Reminder",
+      "Clinician Review Required"
+    ],
+    "if_skipped_adjustment": "Follow clinician-approved missed-dose guidance and log the missed dose.",
+    "metrics_to_collect": [
+      "dose_mg",
+      "sleep_quality",
+      "adherence"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT064",
+    "priority": 64,
+    "activity_type": "Therapy",
+    "name": "Breathwork #064",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Box breathing or physiological sigh protocol",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Health Coach",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Confirm facility availability and avoid heavy meals immediately before the session.",
+    "backup_activities": [
+      "Breathwork",
+      "Guided Meditation",
+      "Recovery Stretch"
+    ],
+    "if_skipped_adjustment": "Replace with breathwork or recovery stretch and avoid stacking intense recovery sessions next day.",
+    "metrics_to_collect": [
+      "duration",
+      "stress_score",
+      "HRV"
+    ],
+    "preferred_time_windows": [
+      "evening",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT065",
+    "priority": 65,
+    "activity_type": "Consultation",
+    "name": "Physiotherapy Review #065",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "duration_minutes": 30,
+    "details": "Assess mobility limitation and exercise form",
+    "facilitator_type": "allied_health",
+    "facilitator_role": "Physiotherapist",
+    "location_options": [
+      "Clinic",
+      "Online"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [
+      "Yoga Mat"
+    ],
+    "prep_required": "Prepare recent logs, wearable data, questions, and any relevant lab results.",
+    "backup_activities": [
+      "Remote Check-in",
+      "Async Form Review",
+      "Reschedule Consultation"
+    ],
+    "if_skipped_adjustment": "Use the earliest remote or in-person follow-up slot and share logs asynchronously.",
+    "metrics_to_collect": [
+      "pain_score",
+      "range_of_motion",
+      "exercise_tolerance"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT066",
+    "priority": 66,
+    "activity_type": "Fitness routine / exercise",
+    "name": "Eye Exercise #066",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Near-far focus drill and 20-20-20 visual breaks",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel Room"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Wear appropriate training clothes, prepare water, and confirm recovery status.",
+    "backup_activities": [
+      "Brisk Walk",
+      "Mobility Flow",
+      "Indoor Cycling"
+    ],
+    "if_skipped_adjustment": "Reschedule within the same week if possible; otherwise reduce next session intensity by 10%.",
+    "metrics_to_collect": [
+      "duration",
+      "eye_strain_score"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT067",
+    "priority": 67,
+    "activity_type": "Food consumption",
+    "name": "Low-Glycemic Dinner #067",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Control evening carbohydrate load",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Restaurant",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare or order the meal according to the assigned nutrition guideline.",
+    "backup_activities": [
+      "Protein Shake",
+      "Mediterranean Meal Bowl",
+      "Low-Glycemic Snack"
+    ],
+    "if_skipped_adjustment": "Return to the plan at the next meal and note the reason for deviation.",
+    "metrics_to_collect": [
+      "carbs_g",
+      "glucose_response",
+      "sleep_quality"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT068",
+    "priority": 68,
+    "activity_type": "Medication consumption",
+    "name": "Glucose Monitor Check #068",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 10,
+    "details": "Record fasting glucose and notes",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [
+      "Glucose Meter"
+    ],
+    "prep_required": "Confirm dose, timing, and any meal requirement before taking it.",
+    "backup_activities": [
+      "Reschedule Dose Reminder",
+      "Clinician Review Required"
+    ],
+    "if_skipped_adjustment": "Follow clinician-approved missed-dose guidance and log the missed dose.",
+    "metrics_to_collect": [
+      "glucose_mg_dL",
+      "fasting_hours"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT069",
+    "priority": 69,
+    "activity_type": "Therapy",
+    "name": "Guided Meditation #069",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 30,
+    "details": "Mindfulness session with body scan",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Health Coach",
+    "location_options": [
+      "Home",
+      "Hotel",
+      "Office"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Confirm facility availability and avoid heavy meals immediately before the session.",
+    "backup_activities": [
+      "Breathwork",
+      "Guided Meditation",
+      "Recovery Stretch"
+    ],
+    "if_skipped_adjustment": "Replace with breathwork or recovery stretch and avoid stacking intense recovery sessions next day.",
+    "metrics_to_collect": [
+      "duration",
+      "mood_score",
+      "sleep_quality"
+    ],
+    "preferred_time_windows": [
+      "evening",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT070",
+    "priority": 70,
+    "activity_type": "Consultation",
+    "name": "Physician Follow-up #070",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "duration_minutes": 30,
+    "details": "Review biomarkers and medication tolerance",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Physician",
+    "location_options": [
+      "Clinic",
+      "Online"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare recent logs, wearable data, questions, and any relevant lab results.",
+    "backup_activities": [
+      "Remote Check-in",
+      "Async Form Review",
+      "Reschedule Consultation"
+    ],
+    "if_skipped_adjustment": "Use the earliest remote or in-person follow-up slot and share logs asynchronously.",
+    "metrics_to_collect": [
+      "blood_markers",
+      "symptoms",
+      "adherence"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT071",
+    "priority": 71,
+    "activity_type": "Fitness routine / exercise",
+    "name": "Brisk Walk #071",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "duration_minutes": 15,
+    "details": "Low-intensity walk after meals",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Park",
+      "Home",
+      "Hotel"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [],
+    "prep_required": "Wear appropriate training clothes, prepare water, and confirm recovery status.",
+    "backup_activities": [
+      "Brisk Walk",
+      "Mobility Flow",
+      "Indoor Cycling"
+    ],
+    "if_skipped_adjustment": "Reschedule within the same week if possible; otherwise reduce next session intensity by 10%.",
+    "metrics_to_collect": [
+      "steps",
+      "duration",
+      "glucose_response"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT072",
+    "priority": 72,
+    "activity_type": "Food consumption",
+    "name": "Fermented Food Serving #072",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Add yogurt, kimchi, kefir, or sauerkraut",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare or order the meal according to the assigned nutrition guideline.",
+    "backup_activities": [
+      "Protein Shake",
+      "Mediterranean Meal Bowl",
+      "Low-Glycemic Snack"
+    ],
+    "if_skipped_adjustment": "Return to the plan at the next meal and note the reason for deviation.",
+    "metrics_to_collect": [
+      "serving_size",
+      "GI_comfort_score"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT073",
+    "priority": 73,
+    "activity_type": "Medication consumption",
+    "name": "Blood Pressure Reading #073",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 10,
+    "details": "Measure seated blood pressure after 5 minutes rest",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Hotel",
+      "Clinic"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [
+      "Blood Pressure Cuff"
+    ],
+    "prep_required": "Confirm dose, timing, and any meal requirement before taking it.",
+    "backup_activities": [
+      "Reschedule Dose Reminder",
+      "Clinician Review Required"
+    ],
+    "if_skipped_adjustment": "Follow clinician-approved missed-dose guidance and log the missed dose.",
+    "metrics_to_collect": [
+      "systolic",
+      "diastolic",
+      "resting_hr"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT074",
+    "priority": 74,
+    "activity_type": "Therapy",
+    "name": "Recovery Stretch #074",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Parasympathetic evening stretch routine",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Health Coach",
+    "location_options": [
+      "Home",
+      "Hotel",
+      "Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Yoga Mat"
+    ],
+    "prep_required": "Confirm facility availability and avoid heavy meals immediately before the session.",
+    "backup_activities": [
+      "Breathwork",
+      "Guided Meditation",
+      "Recovery Stretch"
+    ],
+    "if_skipped_adjustment": "Replace with breathwork or recovery stretch and avoid stacking intense recovery sessions next day.",
+    "metrics_to_collect": [
+      "duration",
+      "muscle_tightness_score"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT075",
+    "priority": 75,
+    "activity_type": "Consultation",
+    "name": "Sleep Coaching Session #075",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "duration_minutes": 60,
+    "details": "Review sleep timing, routine, and wearable trends",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Sleep Specialist",
+    "location_options": [
+      "Online",
+      "Clinic"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare recent logs, wearable data, questions, and any relevant lab results.",
+    "backup_activities": [
+      "Remote Check-in",
+      "Async Form Review",
+      "Reschedule Consultation"
+    ],
+    "if_skipped_adjustment": "Use the earliest remote or in-person follow-up slot and share logs asynchronously.",
+    "metrics_to_collect": [
+      "sleep_duration",
+      "sleep_efficiency",
+      "HRV"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT076",
+    "priority": 76,
+    "activity_type": "Fitness routine / exercise",
+    "name": "Zone 2 Run #076",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Maintain heart rate between 120-140 bpm",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Park",
+      "Gym",
+      "Hotel Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Treadmill"
+    ],
+    "prep_required": "Wear appropriate training clothes, prepare water, and confirm recovery status.",
+    "backup_activities": [
+      "Brisk Walk",
+      "Mobility Flow",
+      "Indoor Cycling"
+    ],
+    "if_skipped_adjustment": "Reschedule within the same week if possible; otherwise reduce next session intensity by 10%.",
+    "metrics_to_collect": [
+      "heart_rate",
+      "duration",
+      "perceived_exertion"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT077",
+    "priority": 77,
+    "activity_type": "Food consumption",
+    "name": "High-Protein Breakfast #077",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Consume 30-40g protein within 2 hours of waking",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Hotel",
+      "Office"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare or order the meal according to the assigned nutrition guideline.",
+    "backup_activities": [
+      "Protein Shake",
+      "Mediterranean Meal Bowl",
+      "Low-Glycemic Snack"
+    ],
+    "if_skipped_adjustment": "Return to the plan at the next meal and note the reason for deviation.",
+    "metrics_to_collect": [
+      "protein_g",
+      "calories",
+      "satiety_score"
+    ],
+    "preferred_time_windows": [
+      "morning"
+    ]
+  },
+  {
+    "activity_id": "ACT078",
+    "priority": 78,
+    "activity_type": "Medication consumption",
+    "name": "Omega-3 Supplement #078",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "duration_minutes": 10,
+    "details": "Take after meal to improve tolerance",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Confirm dose, timing, and any meal requirement before taking it.",
+    "backup_activities": [
+      "Reschedule Dose Reminder",
+      "Clinician Review Required"
+    ],
+    "if_skipped_adjustment": "Follow clinician-approved missed-dose guidance and log the missed dose.",
+    "metrics_to_collect": [
+      "dose_mg",
+      "adherence"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT079",
+    "priority": 79,
+    "activity_type": "Therapy",
+    "name": "Sauna Session #079",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 30,
+    "details": "15-20 minutes moderate heat exposure",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Health Coach",
+    "location_options": [
+      "Wellness Center",
+      "Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Sauna"
+    ],
+    "prep_required": "Confirm facility availability and avoid heavy meals immediately before the session.",
+    "backup_activities": [
+      "Breathwork",
+      "Guided Meditation",
+      "Recovery Stretch"
+    ],
+    "if_skipped_adjustment": "Replace with breathwork or recovery stretch and avoid stacking intense recovery sessions next day.",
+    "metrics_to_collect": [
+      "duration",
+      "temperature",
+      "recovery_score"
+    ],
+    "preferred_time_windows": [
+      "evening",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT080",
+    "priority": 80,
+    "activity_type": "Consultation",
+    "name": "Fitness Coaching Check-in #080",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "duration_minutes": 30,
+    "details": "Review training load, soreness, and next progression",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Gym",
+      "Online"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare recent logs, wearable data, questions, and any relevant lab results.",
+    "backup_activities": [
+      "Remote Check-in",
+      "Async Form Review",
+      "Reschedule Consultation"
+    ],
+    "if_skipped_adjustment": "Use the earliest remote or in-person follow-up slot and share logs asynchronously.",
+    "metrics_to_collect": [
+      "training_load",
+      "soreness",
+      "adherence"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT081",
+    "priority": 81,
+    "activity_type": "Fitness routine / exercise",
+    "name": "Strength Training #081",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 60,
+    "details": "Full-body resistance session with controlled tempo",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Gym",
+      "Home Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Dumbbells",
+      "Resistance Bands"
+    ],
+    "prep_required": "Wear appropriate training clothes, prepare water, and confirm recovery status.",
+    "backup_activities": [
+      "Brisk Walk",
+      "Mobility Flow",
+      "Indoor Cycling"
+    ],
+    "if_skipped_adjustment": "Reschedule within the same week if possible; otherwise reduce next session intensity by 10%.",
+    "metrics_to_collect": [
+      "sets",
+      "reps",
+      "load",
+      "RPE"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT082",
+    "priority": 82,
+    "activity_type": "Food consumption",
+    "name": "Mediterranean Lunch #082",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 20,
+    "details": "Vegetables, lean protein, olive oil, and whole grains",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Office",
+      "Restaurant"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare or order the meal according to the assigned nutrition guideline.",
+    "backup_activities": [
+      "Protein Shake",
+      "Mediterranean Meal Bowl",
+      "Low-Glycemic Snack"
+    ],
+    "if_skipped_adjustment": "Return to the plan at the next meal and note the reason for deviation.",
+    "metrics_to_collect": [
+      "calories",
+      "fiber_g",
+      "protein_g"
+    ],
+    "preferred_time_windows": [
+      "midday"
+    ]
+  },
+  {
+    "activity_id": "ACT083",
+    "priority": 83,
+    "activity_type": "Medication consumption",
+    "name": "Vitamin D3 #083",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 10,
+    "details": "Take with fat-containing meal",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Confirm dose, timing, and any meal requirement before taking it.",
+    "backup_activities": [
+      "Reschedule Dose Reminder",
+      "Clinician Review Required"
+    ],
+    "if_skipped_adjustment": "Follow clinician-approved missed-dose guidance and log the missed dose.",
+    "metrics_to_collect": [
+      "dose_IU",
+      "adherence"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT084",
+    "priority": 84,
+    "activity_type": "Therapy",
+    "name": "Cold Plunge #084",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "2-3 minutes controlled cold exposure",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Wellness Center",
+      "Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Cold Plunge"
+    ],
+    "prep_required": "Confirm facility availability and avoid heavy meals immediately before the session.",
+    "backup_activities": [
+      "Breathwork",
+      "Guided Meditation",
+      "Recovery Stretch"
+    ],
+    "if_skipped_adjustment": "Replace with breathwork or recovery stretch and avoid stacking intense recovery sessions next day.",
+    "metrics_to_collect": [
+      "duration",
+      "temperature",
+      "stress_score"
+    ],
+    "preferred_time_windows": [
+      "evening",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT085",
+    "priority": 85,
+    "activity_type": "Consultation",
+    "name": "Dietitian Consultation #085",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "duration_minutes": 45,
+    "details": "Review food log and adjust macro targets",
+    "facilitator_type": "allied_health",
+    "facilitator_role": "Dietitian",
+    "location_options": [
+      "Clinic",
+      "Online"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare recent logs, wearable data, questions, and any relevant lab results.",
+    "backup_activities": [
+      "Remote Check-in",
+      "Async Form Review",
+      "Reschedule Consultation"
+    ],
+    "if_skipped_adjustment": "Use the earliest remote or in-person follow-up slot and share logs asynchronously.",
+    "metrics_to_collect": [
+      "protein_g",
+      "fiber_g",
+      "weight_trend"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT086",
+    "priority": 86,
+    "activity_type": "Fitness routine / exercise",
+    "name": "Mobility Flow #086",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Hip, ankle, thoracic spine, and shoulder mobility",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Home",
+      "Hotel Room",
+      "Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Yoga Mat"
+    ],
+    "prep_required": "Wear appropriate training clothes, prepare water, and confirm recovery status.",
+    "backup_activities": [
+      "Brisk Walk",
+      "Mobility Flow",
+      "Indoor Cycling"
+    ],
+    "if_skipped_adjustment": "Reschedule within the same week if possible; otherwise reduce next session intensity by 10%.",
+    "metrics_to_collect": [
+      "duration",
+      "pain_score",
+      "range_of_motion"
+    ],
+    "preferred_time_windows": [
+      "morning"
+    ]
+  },
+  {
+    "activity_id": "ACT087",
+    "priority": 87,
+    "activity_type": "Food consumption",
+    "name": "Hydration Protocol #087",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Drink 500ml water with electrolytes",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare or order the meal according to the assigned nutrition guideline.",
+    "backup_activities": [
+      "Protein Shake",
+      "Mediterranean Meal Bowl",
+      "Low-Glycemic Snack"
+    ],
+    "if_skipped_adjustment": "Return to the plan at the next meal and note the reason for deviation.",
+    "metrics_to_collect": [
+      "water_ml",
+      "electrolyte_serving"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT088",
+    "priority": 88,
+    "activity_type": "Medication consumption",
+    "name": "Magnesium Glycinate #088",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 10,
+    "details": "Take 60 minutes before bedtime",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Confirm dose, timing, and any meal requirement before taking it.",
+    "backup_activities": [
+      "Reschedule Dose Reminder",
+      "Clinician Review Required"
+    ],
+    "if_skipped_adjustment": "Follow clinician-approved missed-dose guidance and log the missed dose.",
+    "metrics_to_collect": [
+      "dose_mg",
+      "sleep_quality",
+      "adherence"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT089",
+    "priority": 89,
+    "activity_type": "Therapy",
+    "name": "Breathwork #089",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Box breathing or physiological sigh protocol",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Health Coach",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Confirm facility availability and avoid heavy meals immediately before the session.",
+    "backup_activities": [
+      "Breathwork",
+      "Guided Meditation",
+      "Recovery Stretch"
+    ],
+    "if_skipped_adjustment": "Replace with breathwork or recovery stretch and avoid stacking intense recovery sessions next day.",
+    "metrics_to_collect": [
+      "duration",
+      "stress_score",
+      "HRV"
+    ],
+    "preferred_time_windows": [
+      "evening",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT090",
+    "priority": 90,
+    "activity_type": "Consultation",
+    "name": "Physiotherapy Review #090",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "duration_minutes": 60,
+    "details": "Assess mobility limitation and exercise form",
+    "facilitator_type": "allied_health",
+    "facilitator_role": "Physiotherapist",
+    "location_options": [
+      "Clinic",
+      "Online"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [
+      "Yoga Mat"
+    ],
+    "prep_required": "Prepare recent logs, wearable data, questions, and any relevant lab results.",
+    "backup_activities": [
+      "Remote Check-in",
+      "Async Form Review",
+      "Reschedule Consultation"
+    ],
+    "if_skipped_adjustment": "Use the earliest remote or in-person follow-up slot and share logs asynchronously.",
+    "metrics_to_collect": [
+      "pain_score",
+      "range_of_motion",
+      "exercise_tolerance"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT091",
+    "priority": 91,
+    "activity_type": "Fitness routine / exercise",
+    "name": "Eye Exercise #091",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "duration_minutes": 15,
+    "details": "Near-far focus drill and 20-20-20 visual breaks",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel Room"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Wear appropriate training clothes, prepare water, and confirm recovery status.",
+    "backup_activities": [
+      "Brisk Walk",
+      "Mobility Flow",
+      "Indoor Cycling"
+    ],
+    "if_skipped_adjustment": "Reschedule within the same week if possible; otherwise reduce next session intensity by 10%.",
+    "metrics_to_collect": [
+      "duration",
+      "eye_strain_score"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT092",
+    "priority": 92,
+    "activity_type": "Food consumption",
+    "name": "Low-Glycemic Dinner #092",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Control evening carbohydrate load",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Restaurant",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare or order the meal according to the assigned nutrition guideline.",
+    "backup_activities": [
+      "Protein Shake",
+      "Mediterranean Meal Bowl",
+      "Low-Glycemic Snack"
+    ],
+    "if_skipped_adjustment": "Return to the plan at the next meal and note the reason for deviation.",
+    "metrics_to_collect": [
+      "carbs_g",
+      "glucose_response",
+      "sleep_quality"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT093",
+    "priority": 93,
+    "activity_type": "Medication consumption",
+    "name": "Glucose Monitor Check #093",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 15,
+    "details": "Record fasting glucose and notes",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [
+      "Glucose Meter"
+    ],
+    "prep_required": "Confirm dose, timing, and any meal requirement before taking it.",
+    "backup_activities": [
+      "Reschedule Dose Reminder",
+      "Clinician Review Required"
+    ],
+    "if_skipped_adjustment": "Follow clinician-approved missed-dose guidance and log the missed dose.",
+    "metrics_to_collect": [
+      "glucose_mg_dL",
+      "fasting_hours"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT094",
+    "priority": 94,
+    "activity_type": "Therapy",
+    "name": "Guided Meditation #094",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 30,
+    "details": "Mindfulness session with body scan",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Health Coach",
+    "location_options": [
+      "Home",
+      "Hotel",
+      "Office"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Confirm facility availability and avoid heavy meals immediately before the session.",
+    "backup_activities": [
+      "Breathwork",
+      "Guided Meditation",
+      "Recovery Stretch"
+    ],
+    "if_skipped_adjustment": "Replace with breathwork or recovery stretch and avoid stacking intense recovery sessions next day.",
+    "metrics_to_collect": [
+      "duration",
+      "mood_score",
+      "sleep_quality"
+    ],
+    "preferred_time_windows": [
+      "evening",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT095",
+    "priority": 95,
+    "activity_type": "Consultation",
+    "name": "Physician Follow-up #095",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "duration_minutes": 60,
+    "details": "Review biomarkers and medication tolerance",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Physician",
+    "location_options": [
+      "Clinic",
+      "Online"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare recent logs, wearable data, questions, and any relevant lab results.",
+    "backup_activities": [
+      "Remote Check-in",
+      "Async Form Review",
+      "Reschedule Consultation"
+    ],
+    "if_skipped_adjustment": "Use the earliest remote or in-person follow-up slot and share logs asynchronously.",
+    "metrics_to_collect": [
+      "blood_markers",
+      "symptoms",
+      "adherence"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "afternoon"
+    ]
+  },
+  {
+    "activity_id": "ACT096",
+    "priority": 96,
+    "activity_type": "Fitness routine / exercise",
+    "name": "Brisk Walk #096",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "duration_minutes": 15,
+    "details": "Low-intensity walk after meals",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Fitness Trainer",
+    "location_options": [
+      "Park",
+      "Home",
+      "Hotel"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [],
+    "prep_required": "Wear appropriate training clothes, prepare water, and confirm recovery status.",
+    "backup_activities": [
+      "Brisk Walk",
+      "Mobility Flow",
+      "Indoor Cycling"
+    ],
+    "if_skipped_adjustment": "Reschedule within the same week if possible; otherwise reduce next session intensity by 10%.",
+    "metrics_to_collect": [
+      "steps",
+      "duration",
+      "glucose_response"
+    ],
+    "preferred_time_windows": [
+      "morning"
+    ]
+  },
+  {
+    "activity_id": "ACT097",
+    "priority": 97,
+    "activity_type": "Food consumption",
+    "name": "Fermented Food Serving #097",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 20,
+    "details": "Add yogurt, kimchi, kefir, or sauerkraut",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Office",
+      "Hotel"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare or order the meal according to the assigned nutrition guideline.",
+    "backup_activities": [
+      "Protein Shake",
+      "Mediterranean Meal Bowl",
+      "Low-Glycemic Snack"
+    ],
+    "if_skipped_adjustment": "Return to the plan at the next meal and note the reason for deviation.",
+    "metrics_to_collect": [
+      "serving_size",
+      "GI_comfort_score"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT098",
+    "priority": 98,
+    "activity_type": "Medication consumption",
+    "name": "Blood Pressure Reading #098",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 10,
+    "details": "Measure seated blood pressure after 5 minutes rest",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Hotel",
+      "Clinic"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [
+      "Blood Pressure Cuff"
+    ],
+    "prep_required": "Confirm dose, timing, and any meal requirement before taking it.",
+    "backup_activities": [
+      "Reschedule Dose Reminder",
+      "Clinician Review Required"
+    ],
+    "if_skipped_adjustment": "Follow clinician-approved missed-dose guidance and log the missed dose.",
+    "metrics_to_collect": [
+      "systolic",
+      "diastolic",
+      "resting_hr"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT099",
+    "priority": 99,
+    "activity_type": "Therapy",
+    "name": "Recovery Stretch #099",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "duration_minutes": 45,
+    "details": "Parasympathetic evening stretch routine",
+    "facilitator_type": "self",
+    "facilitator_role": "Self",
+    "location_options": [
+      "Home",
+      "Hotel",
+      "Gym"
+    ],
+    "can_be_remote": false,
+    "required_equipment": [
+      "Yoga Mat"
+    ],
+    "prep_required": "Confirm facility availability and avoid heavy meals immediately before the session.",
+    "backup_activities": [
+      "Breathwork",
+      "Guided Meditation",
+      "Recovery Stretch"
+    ],
+    "if_skipped_adjustment": "Replace with breathwork or recovery stretch and avoid stacking intense recovery sessions next day.",
+    "metrics_to_collect": [
+      "duration",
+      "muscle_tightness_score"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "activity_id": "ACT100",
+    "priority": 100,
+    "activity_type": "Consultation",
+    "name": "Sleep Coaching Session #100",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "duration_minutes": 30,
+    "details": "Review sleep timing, routine, and wearable trends",
+    "facilitator_type": "specialist",
+    "facilitator_role": "Sleep Specialist",
+    "location_options": [
+      "Online",
+      "Clinic"
+    ],
+    "can_be_remote": true,
+    "required_equipment": [],
+    "prep_required": "Prepare recent logs, wearable data, questions, and any relevant lab results.",
+    "backup_activities": [
+      "Remote Check-in",
+      "Async Form Review",
+      "Reschedule Consultation"
+    ],
+    "if_skipped_adjustment": "Use the earliest remote or in-person follow-up slot and share logs asynchronously.",
+    "metrics_to_collect": [
+      "sleep_duration",
+      "sleep_efficiency",
+      "HRV"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "afternoon"
+    ]
+  }
+]

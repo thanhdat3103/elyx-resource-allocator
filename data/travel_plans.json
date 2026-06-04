@@ -1,0 +1,23 @@
+[
+  {
+    "travel_id": "TRV001",
+    "start_date": "2026-06-21",
+    "end_date": "2026-06-23",
+    "description": "Singapore business trip",
+    "constraint": "in_person_activities_unavailable; remote_activities_allowed"
+  },
+  {
+    "travel_id": "TRV002",
+    "start_date": "2026-07-14",
+    "end_date": "2026-07-18",
+    "description": "Tokyo conference",
+    "constraint": "in_person_activities_unavailable; remote_activities_allowed"
+  },
+  {
+    "travel_id": "TRV003",
+    "start_date": "2026-08-15",
+    "end_date": "2026-08-18",
+    "description": "Seoul family travel",
+    "constraint": "in_person_activities_unavailable; remote_activities_allowed"
+  }
+]
