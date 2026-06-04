@@ -2,6 +2,14 @@
 
 A simple but realistic implementation of a **Resource Allocator** for Elyx's HealthSpan AI workflow. The app converts a prioritized health action plan into a personalized calendar while considering client schedule, travel plans, equipment availability, specialists, allied health professionals, remote feasibility, backup activities, and skipped-activity adjustments.
 
+## Hosted Demo
+
+The app is hosted here: https://elyx-health-resource-allocator.streamlit.app/
+
+## GitHub Repository
+
+Source code: https://github.com/thanhdat3103/elyx-resource-allocator
+
 ## 1. Overview
 
 The assignment asks for a simple scheduler that takes an action plan and resource schedules, then outputs a personalized plan. This implementation is intentionally designed to be explainable and reviewable rather than overly complex.
